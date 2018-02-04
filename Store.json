@@ -1,0 +1,139 @@
+{
+	"_id": { "$oid": "5a1ec6e8cf830c326645d00a" },
+	"storeId": 17994,
+	"storeName": "XYZ Supermarket",
+	"location": { "lat": 12.922707, "lng": 77.613802 },
+	"storeSize": 1500,
+	"noOfFloors": 1,
+	"allowsPickup": true,
+	"allowsDelivery": true,
+	"allowsSelfCheckout": true,
+	"allowsTelecallingDelivery": true,
+	"isActive": true,
+	"parkingRedemption": false,
+	"parkingRedemptionAmount": 0,
+	"paymentModes": {
+		"cod": true,
+		"creditCard": true,
+		"debitCard": true,
+		"payTm": true,
+		"upi": true
+	},
+	"caryBagOptions": { "s": 0, "m": 0, "l": 0, "xl": 0 },
+	"businessHours": {
+		"sun": {
+			"working": true,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"mon": {
+			"working": true,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"tue": {
+			"working": true,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"wed": {
+			"working": false,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"thr": {
+			"working": false,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"fri": {
+			"working": true,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		},
+		"sat": {
+			"working": true,
+			"createdAt": { "$date": "2017-11-29T14:40:40.970Z" },
+			"timeslot": {
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.970Z" }
+			}
+		}
+	},
+	"pickupOptions": {
+		"advanceDays": 1,
+		"createdAt": { "$date": "2017-11-29T14:40:40.971Z" },
+		"_timeslots": [
+			{
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.971Z" }
+			}
+		]
+	},
+	"deliveryOptions": {
+		"advanceDays": 1,
+		"createdAt": { "$date": "2017-11-29T14:40:40.971Z" },
+		"_timeslots": [
+			{
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.971Z" }
+			}
+		]
+	},
+	"selfCheckoutOptions": {
+		"advanceDays": 1,
+		"minItems": 1,
+		"maxItems": 5,
+		"_timeslots": [
+			{
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.971Z" }
+			}
+		],
+		"createdAt": { "$date": "2017-11-29T14:40:40.971Z" }
+	},
+	"telecallingDeliveryOptions": {
+		"advanceDays": 1,
+		"createdAt": { "$date": "2017-11-29T14:40:40.971Z" },
+		"_timeslots": [
+			{
+				"openTime": 480,
+				"closingTime": 1200,
+				"createdAt": { "$date": "2017-11-29T14:40:40.971Z" }
+			}
+		]
+	},
+	"createdAt": { "$date": "2017-11-29T14:40:40.971Z" },
+	"updatedAt": { "$date": "2017-11-29T14:40:40.972Z" },
+	"masterStoreTypeId": "1",
+	"_storeEmails": [],
+	"_storeContactNumbers": []
+}

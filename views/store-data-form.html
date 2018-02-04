@@ -1,0 +1,114 @@
+<div class="row" style="margin:10">
+	<div class="col-sm-3">
+	</div>
+	<div class="col-sm-9">
+		<form id="formData">
+			<div class="form-group">
+		    <label for="staddress">Store Address:</label>
+		    <input type="text" name="staddress" id="staddress" ng-model="staddress" placeholder="Store Address">
+		  </div>
+		  <div class="form-group">
+		    <label for="stpincode">Store Pincode:</label>
+		    <input type="number" name="stpincode" id="stpincode" ng-model="stpincode" placeholder="Store Pincode">
+		  </div>
+		  <div class="form-group">
+		    <label for="stcitystate">Store City and State:</label>
+		    <input type="text" name="stcitystate" id="stcitystate" ng-model="stcitystate" placeholder="Store Address">
+		  </div>
+		  <div class="form-group">
+		    <label for="stpincode">Store Lat:</label>
+		    <input type="text" name="stlat" id="stlat" ng-model="stlat" placeholder="Store Latitude" >
+		    <label for="stpincode">Store Long:</label>
+		    <input type="text" name="stlong" id="stlong" ng-model="stlong" placeholder="Store Longitude">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Store Contact:</label>
+		    <input type="text" name="stcontact" id="stcontact" ng-model="stcontact" placeholder="Store Contact" >
+		  </div>
+		  <div class="form-group">
+		    <label for="sttelecall">Store Telecalling:</label>
+		    <input type="text" name="sttelecall" id="sttelecall" ng-model="sttelecall" placeholder="Store Telecalling" >
+		  </div>
+		  <div class="form-group">
+		    <label for="stmaxitems">Max items allowed for in store Scan:</label>
+		    <input type="text" name="stmaxitems" id="stmaxitems" ng-model="stmaxitems" placeholder="Store Max Items Allowed">
+		  </div>
+
+		  <ul class="nav nav-tabs">
+		  	 <li ng-repeat="section in sections" ng-class="{active : isSelected(section.name)}">
+            <a ng-href="{{section.tabshref}}" target="_self"  aria-expanded="{{section.ariaexpanded}}" ng-click="setMaster(section.name)" data-toggle="tab">{{section.name}}</a>
+        </li>
+		  </ul>
+
+		  <div class="tab-content">
+		  	<div class="hour-div"><b>Opening hours</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  	<b>Closing Hours</b>
+		  	</div>
+	      
+	      <div class="tab-pane active" id="instore_scan">
+	      	<ul id="ul_instore_scan">
+	      		<li><input type="checkbox" /> Sun 
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Mon
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Tue
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Wed
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Thu
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Fri
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      		<li><input type="checkbox" /> Sat
+	      				<input type="number" name="">
+	      				<input type="number" name="">
+	      		</li>
+	      	
+	      </div>
+<!-- 
+	      <div class="tab-pane" id="home_delivery">
+	      	<ul class="nav navbar-nav">
+			      <li>h2</li>
+			     	<li>h2</li>
+			     	<li>h2</li>
+			     	<li>h2</li>
+			    </ul>
+	      </div>
+
+	       <div class="tab-pane" id="cust_pickup">
+	      	<ul class="nav navbar-nav">
+			      <li>h3</li>
+			     	<li>h3</li>
+			     	<li>h3</li>
+			     	<li>h3</li>
+			    </ul>
+	      </div>
+
+	       <div class="tab-pane" id="telecalling">
+	      	<ul class="nav navbar-nav">
+			      <li>h4</li>
+			     	<li>h4</li>
+			     	<li>h4</li>
+			     	<li>h4</li>
+			    </ul>
+	      </div>
+ -->
+
+      </div>
+			 
+		<!-- 	<input type="button" value="Submit" class="btn btn-primary" ng-click="postdata(staddress,stpincode,stcitystate,stlat,stlong,stcontact,sttelecall,stmaxitems)" /> -->
+		</form>
+	</div>
+</div>
